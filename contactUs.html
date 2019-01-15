@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link href="restaurantStyle.css" rel="stylesheet" type="text/css" />
+  
+<style>
+
+input[type=text] {
+  border: 1px solid #7d3648;
+  width: 100%;
+  padding: 6px 16px 6px 16px;
+  margin: 6px 0;
+  box-sizing: border-box;
+
+
+}
+select {
+  border: 1px solid #7d3648;
+  width: 100%;
+  padding: 6px 16px 6px 16px;
+  margin: 6px 0;
+  box-sizing: border-box;
+
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 6px 16px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+}
+input, submit {
+  color: #7d3648;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-color: #7d7d36;
+
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.submit {
+  margin: auto;
+  width: 25%;
+  padding: 6px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="name">
+<h1>Bello Italiano Restaurant</h1>
+</div>
+
+<div id="navigation">
+  <hr />
+  <p><a href="index.html" target="_blank">Home</a>
+      <a href="menu.html" target="_blank">Menu</a>
+      <a href="contactUs.html" target="_blank">Contact Us</a>
+  </p>
+  <hr />
+</div>
+
+  <div class="center">
+<form action="submit.html" method="POST">
+
+    <label for="fullName">Name:</label>
+    <input type="text" id="fullName" name="fullName"><br /><br />
+    <label for="emailAddress">Email:</label>
+    <input type="text" id="emilAddress" name="emailAddress"><br /><br />
+    <label for="phoneNumber">Phone:</label>
+    <input type="text" id="phoneNumber" name="phoneNumber"><br /><br />
+    <label for="forInquiry">Reason for Inquiry:</label>
+    <select id="forInquiry" name="forInquiry">
+        <option value="default" selected:>---Catering---</option>
+        <option value="privateParty" select:>Private Party</option>
+        <option value="feedback" select:>Feedback</option>
+        <option value="other" select:>Other</option>
+    </select> <br /><br>
+    <label for="information">Additional Information:</label>
+    <textarea name="information"></textarea><br /><br />
+
+    <label for="information">Have you been to the restaurant?</label>
+    <input type="radio" id="visit1" name="question" value="yes">
+    <label for="visit1">Yes</label>
+    <input type="radio" id="visit0" name="question" value="no">
+    <label for="visit0">No</label><br /><br />
+
+    <label for="contactDay">Best day to contact you:</label>
+    <input type="checkbox" name="myChoice" value="Monday">M
+    <input type="checkbox" name="myChoice" value="Tuesday">T
+    <input type="checkbox" name="myChoice" value="Wednesday">W
+    <input type="checkbox" name="myChoice" value="Thursday">Th
+    <input type="checkbox" name="mychoice" value="Friday">F<br /><br />
+
+    <div class="submit">
+    <input type="submit" style="background-color: #7d7d36; color: #7d3648" name="submit" value="Send Request">
+  </div>
+  </form>
+</div>
+
+</body>
+
+<div id="footer" align="center">
+  <hr />
+<footer><p>4477 Main Street, New York, NY 44755</p>
+  <p>Phone Number: 1(917)-999-3322</p>
+</footer>
+  <hr />
+</div>
+
+</html>

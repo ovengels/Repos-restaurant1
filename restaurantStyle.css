@@ -1,0 +1,35 @@
+header, footer {
+background-color: #7D4836;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+color: #7d6b36;
+}
+
+hr {
+  border: 2px solid #7D7B36;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 18px 28px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  background-color: #7D3648;
+}
+a {
+  font-family: serif;
+  text-decoration: none;
+  font-weight: none;
+}
+a: link {
+  color: #6b367d;
+  text-decoration: none;
+}
+a: visited {
+  color: #7D7B36;
+}
+a: hover {
+  color: #7d6d36;
