@@ -1,16 +1,23 @@
-header, footer {
-background-color: #7D4836;
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-box-sizing: border-box;
-color: #7d6b36;
+header, footer  {
+  background-color: #7D4836;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: #7d6b36;
 }
 
-hr {
+.class {
+  background-color: #7D4836;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: #7d6b36;
+}
+{
   border: 2px solid #7D7B36;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
@@ -23,13 +30,22 @@ a {
   font-family: serif;
   text-decoration: none;
   font-weight: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
 }
 a: link {
   color: #6b367d;
   text-decoration: none;
 }
+
 a: visited {
   color: #7D7B36;
 }
 a: hover {
   color: #7d6d36;
+  font-weight: bold;
+}
+.checkbox {
+  color: black;
+}
